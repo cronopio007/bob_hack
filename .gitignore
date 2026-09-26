@@ -1,0 +1,15 @@
+# Ambientes y Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Datos pesados y reportes temporales
+*.pkl
+*.parquet
+
+# Sistema y cache de CLI
+.DS_Store
+*.log
