@@ -60,3 +60,5 @@ Versión 1 de Trinity-AI construida con éxito. Todos los componentes han sido g
 
 
   Para lanzar el dashboard en local:
+
+  agy prompt "Escribe y ejecuta un script parsimónico en Python que lea 'data/data_ejm.parquet', extraiga: 1) Dimensiones del dataset, 2) Lista de columnas y tipos de datos, 3) Conteo y porcentaje de la variable target 'FLAG_MORA_TEMPRANA_8D_3M', y 4) Nulos por columna. Guarda este resumen en 'data/data_summary.md'. Si la librería pyarrow o fastparquet no está instalada, instálala." --auto-approve

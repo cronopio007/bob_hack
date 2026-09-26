@@ -1,15 +1,26 @@
-# Ambientes y Python
+# Ambientes virtuales y dependencias de Python
 __pycache__/
-*.py[cod]
+
 *$py.class
 .venv/
 env/
 venv/
+.pytest_cache/
 
-# Datos pesados y reportes temporales
+# Notebooks (prohibidos en el repo público)
+*.ipynb
+.ipynb_checkpoints/
+
+# Datos pesados y artefactos de modelos
 *.pkl
 *.parquet
 
-# Sistema y cache de CLI
+# Herramienta local secreta (Google Antigravity CLI)
+.agy/
+.agy*
+
+# Archivos del sistema y logs
 .DS_Store
 *.log
+.vscode/
+.idea/
