@@ -1,12 +1,17 @@
 {
   "project": "Trinity-AI",
   "task": "Credit Risk Assessment",
-  "model_version": "v0.1.0-baseline",
-  "timestamp": "2026-09-26T10:55:00Z",
+  "model_version": "v1.0.0-lgbm",
+  "timestamp": "2026-09-27T06:17:16Z",
   "current_metrics": {
-    "accuracy": 0.72,
-    "f1_score": 0.68,
-    "latency_ms": 45
+    "roc_auc": 0.6246,
+    "pr_auc": 0.1587,
+    "ks": 0.2051,
+    "recall_class1": 0.6161,
+    "precision_class1": 0.1411,
+    "f1_score": 0.2296,
+    "accuracy": 0.5797,
+    "latency_ms": 2.766
   },
   "history": [
     {
@@ -15,6 +20,96 @@
       "accuracy": 0.72,
       "f1_score": 0.68,
       "latency_ms": 45
+    },
+    {
+      "iteration": "LightGBM_v1.0_baseline",
+      "timestamp": "2026-09-27T03:59:26Z",
+      "roc_auc": 0.6246,
+      "pr_auc": 0.1587,
+      "ks": 0.2051,
+      "recall_class1": 0.6161,
+      "precision_class1": 0.1411,
+      "f1_score": 0.2296,
+      "accuracy": 0.5797,
+      "latency_ms": 4.128,
+      "threshold_used": 0.2092,
+      "best_iteration": 6,
+      "notes": "Baseline run. best_iteration=6, scale_pos_weight=8.68, split=70/15/15 temporal."
+    },
+    {
+      "iteration": "LightGBM_v1.0_baseline",
+      "timestamp": "2026-09-27T05:59:28Z",
+      "roc_auc": 0.6246,
+      "pr_auc": 0.1587,
+      "ks": 0.2051,
+      "recall_class1": 0.6161,
+      "precision_class1": 0.1411,
+      "f1_score": 0.2296,
+      "accuracy": 0.5797,
+      "latency_ms": 3.164,
+      "threshold_used": 0.2092,
+      "best_iteration": 6,
+      "notes": "Baseline run. best_iteration=6, scale_pos_weight=8.68, split=70/15/15 temporal."
+    },
+    {
+      "iteration": "LightGBM_v1.0_baseline",
+      "timestamp": "2026-09-27T06:01:34Z",
+      "roc_auc": 0.6246,
+      "pr_auc": 0.1587,
+      "ks": 0.2051,
+      "recall_class1": 0.6161,
+      "precision_class1": 0.1411,
+      "f1_score": 0.2296,
+      "accuracy": 0.5797,
+      "latency_ms": 2.866,
+      "threshold_used": 0.2092,
+      "best_iteration": 6,
+      "notes": "Baseline run. best_iteration=6, scale_pos_weight=8.68, split=70/15/15 temporal."
+    },
+    {
+      "iteration": "LightGBM_v1.0_baseline",
+      "timestamp": "2026-09-27T06:06:49Z",
+      "roc_auc": 0.6246,
+      "pr_auc": 0.1587,
+      "ks": 0.2051,
+      "recall_class1": 0.6161,
+      "precision_class1": 0.1411,
+      "f1_score": 0.2296,
+      "accuracy": 0.5797,
+      "latency_ms": 2.67,
+      "threshold_used": 0.2092,
+      "best_iteration": 6,
+      "notes": "Baseline run. best_iteration=6, scale_pos_weight=8.68, split=70/15/15 temporal."
+    },
+    {
+      "iteration": "LightGBM_v1.0_baseline",
+      "timestamp": "2026-09-27T06:08:56Z",
+      "roc_auc": 0.6246,
+      "pr_auc": 0.1587,
+      "ks": 0.2051,
+      "recall_class1": 0.6161,
+      "precision_class1": 0.1411,
+      "f1_score": 0.2296,
+      "accuracy": 0.5797,
+      "latency_ms": 2.807,
+      "threshold_used": 0.2092,
+      "best_iteration": 6,
+      "notes": "Baseline run. best_iteration=6, scale_pos_weight=8.68, split=70/15/15 temporal."
+    },
+    {
+      "iteration": "LightGBM_v1.0_baseline",
+      "timestamp": "2026-09-27T06:17:16Z",
+      "roc_auc": 0.6246,
+      "pr_auc": 0.1587,
+      "ks": 0.2051,
+      "recall_class1": 0.6161,
+      "precision_class1": 0.1411,
+      "f1_score": 0.2296,
+      "accuracy": 0.5797,
+      "latency_ms": 2.766,
+      "threshold_used": 0.2092,
+      "best_iteration": 6,
+      "notes": "Baseline run. best_iteration=6, scale_pos_weight=8.68, split=70/15/15 temporal."
     }
   ]
 }

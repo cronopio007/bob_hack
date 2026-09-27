@@ -1,0 +1,3 @@
+timestamp,model,roc_auc,ks,pr_auc,f1_score,precision,recall,latency_ms
+2026-09-27T06:08:56Z,LightGBM_v1.0_baseline,0.6246,0.2051,0.1587,0.2296,0.1411,0.6161,2.807
+2026-09-27T06:17:16Z,LightGBM_v1.0_baseline,0.6246,0.2051,0.1587,0.2296,0.1411,0.6161,2.766
